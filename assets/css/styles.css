@@ -417,6 +417,7 @@ display: none;
 /*==================== ABOUT ====================*/
 .about__img{
   width: 200px;
+
   border-radius: .5rem;
   justify-self:center;
   align-self: center;
@@ -426,6 +427,8 @@ display: none;
 {
 
     text-align: center;
+    width:400px;
+    justify-content: center;
     margin-bottom: var(--mb-2-5);
 
 }
@@ -529,31 +532,33 @@ display: none;
 
 .skills__html
 {
-  width: 90%;
+  width: 100%;
 }
+
 .skills__python
 {
-  width: 90%;
+  width: 80%;
 }
-.skills__figma
-{
-  width: 90%;
-}
+
 .skills__react
 {
-  width: 90%;
+  width: 70%;
 }
-.skills__javascript
+.skills__angular
 {
-  width: 90%;
+  width: 70%;
 }
-.skills__photoshop
+.skills__java
 {
-  width: 90%;
+  width:100%;
 }
-.skills__sketch
+.skills__aws
 {
-  width: 90%;
+  width:60%;
+}
+.skills__kafka
+{
+  width:50%;
 }
 .skills__close .skills__list
 {
@@ -726,6 +731,7 @@ display: none;
 .services__modal-services
 {
   row-gap: 1rem;
+  
 }
 .services__modal-service
 {
